@@ -4,7 +4,8 @@ public class Main {
 
         GestorTareas gestor = new GestorTareas();
 
-        System.out.println("=== GESTOR DE TAREAS ===");
+        System.out.println("=== GESTOR DE TAREAS CON EJEMPLOS ===");
+        System.out.println("Cargando tareas iniciales...");
 
         gestor.agregarTarea(new Tarea("Preparar examen", false));
         gestor.agregarTarea(new Tarea("Corregir prácticas", true));
