@@ -6,6 +6,10 @@ public class Main {
 
         GestorTareas gestor = new GestorTareas();
 
+        gestor.agregarTarea(new Tarea("Preparar examen", false));
+        gestor.agregarTarea(new Tarea("Corregir prácticas", true));
+        gestor.agregarTarea(new Tarea("Subir materiales al aula virtual", false));
+
         Scanner sc = new Scanner(System.in);
 
         int opcion;
